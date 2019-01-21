@@ -1,11 +1,11 @@
 # Site settings
 author: Lana Holmes
-title: 
+title: Lana's Adventures in Coding
 header-img: img/home-bg.png
 email: lana.lee.holmes@gmail.com
 copyright_name: Lana Holmes
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Just my personal view for this new adventure...
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  LLHolmes
