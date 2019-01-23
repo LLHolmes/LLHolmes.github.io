@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "Here's to the start of a new adventure!"
-date:       2019-01-21 02:04:16 +0000
+date:       2019-01-20 21:04:17 -0500
 permalink:  heres_to_the_start_of_a_new_adventure
 ---
 
 
 Hello, World!
 
-It's pretty cheesy, I know.  But given my untraditional path into the coding world, it gives me a sense of comradery to start in the same way as so many others before me.  Last Monday I started Flatiron School's Online Software Engineering Bootcamp.  Given that I'm going to be documenting my latest journey, introducing myself and letting you know how I got to this moment seems like the logical place to start.
+It's pretty cheesy, I know.  But given my untraditional path into the coding world, it gives me a sense of comradery to start in the same way as so many others before me.  Last Monday I started Flatiron School's Online Software Engineering Bootcamp.  Given that I'm going to be documenting my latest journey, introducing myself and letting you know how I got to this moment seems like the logical place to start. 
 
 Hi!  I'm Lana!
 
