@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "**geek** [geek] noun..."
-date:       2019-02-09 01:23:21 +0000
+date:       2019-02-08 20:23:22 -0500
 permalink:  geek_geek_noun
 ---
 
 
-![](https://imgur.com/JvOu0Ia)
+![](https://i.imgur.com/JvOu0Ia.png)
 [Dictionary.com](https://www.dictionary.com/browse/geek) has 5 definitions for the word geek.  Today, I am particularly interest in #2: a person who has excessive enthusiasm for and some expertise about a specialized subject or activity.
 
 Hi there.  Nice to meet you.  I'm a geek!
