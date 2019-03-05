@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "Creating attr_accessor In A Dynamic ORM"
-date:       2019-03-05 16:19:07 +0000
+date:       2019-03-05 11:19:08 -0500
 permalink:  creating_attr_accessor_in_a_dynamic_orm
 ---
 
 
 The idea of dynamic object relational mapping (ORM) within Ruby is pretty sweet, right?  You basically create a table and let Ruby deal with all the SQL mumbo-jumbo to build the ORM methods for you.  Now, I say “SQL mumbo-jumbo” with all due respect.  Yes, it is important to know SQL and understand how it works, but using dynamic ORMs is just such a time saver!  It does all the work for you while keeping your application organized and connected to your database.  To continue the theme of doing as little as possible while keeping our code DRY, dynamic programming uses metaprogramming.  This helps us keep everything as generic as possible so we only have to write the code once in a parent class, and then share it with all the other/child classes.
 
-There's obviously a lot of dynamic ORM methods we could talk about, but this post is only concerned with one.  I following along with the ORM methods in the parent class (#table_name, #column_names, #initialize, #save, etc.) really well.  But then there was the one bit of code we need to put in our child class.  We needed it to build the attr_accessors specific to that class (based on the table's column names):
+There's obviously a lot of dynamic ORM methods we could talk about, but this post is only concerned with one.  I was following along with the ORM methods in the parent class (#table_name, #column_names, #initialize, #save, etc.) really well.  But then there was the one bit of code we need to put in our child class.  We needed it to build the attr_accessors specific to that class (based on the table's column names):
 
 ```
 require_relative "../parent.rb"
