@@ -16,7 +16,7 @@ I think I have three big take aways from this project:
 2. We’ve all heard it before, but XML API’s are no where near as slick at JSON.  I’m glad I had this experience to learn a bit about it since I know I’ll have to deal with it in the future, but if everyone could just convert their API’s to JSON, I would really appreciate it, ok?  Do it for me. ;)
 (Bonus Zillow information to follow...)
 
-3. I had some issues when working with the react-router-dom.  I could only get either my withRouter function to work with history.push, or my Redirect would push state on redirect, but I couldn't get them to work together.  And it turns out, I was using a ternary incorrectly with Redirect to check to see if the user was logged in.  I found [these docs](https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/Redirect.md) helpful to straighten my Redirect calls out.
+3. I had some issues when working with the react-router-dom.  I could only get either my withRouter function to work with history.push, or my Redirect would push state on redirect, but I couldn't get them to work together.  And it turns out, I was using a ternary incorrectly with Redirect to check to see if the user was logged in.  I found [these docs](https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/Redirect.md) helpful to straighten out my Redirect calls.
 
 Don't forget to use [withRouter](https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/withRouter.md) in *every* component you want to use history.push.
 
