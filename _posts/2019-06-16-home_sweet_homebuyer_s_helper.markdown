@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Home Sweet Homebuyer’s Helper"
-date:       2019-06-17 00:08:38 +0000
+date:       2019-06-16 20:08:39 -0400
 permalink:  home_sweet_homebuyer_s_helper
 ---
 
 
-I made it!  I just wrapped up my final FlatIron project using React Redux!  I built a Homebuyer’s Helper app that implements the Zillow API to search to find information on an address that the user inputs and also produces a list of comparable properties.  Useful if you’re thinking of buying or selling a home, want to keep tabs on your real estate investments, or need to contest the dreaded assessor’s office!
+I made it!  I just wrapped up my final FlatIron project using React Redux!  In honor of my upcoming move to Washington D.C., I built Homebuyer’s Helper.  It's an app that implements the Zillow API to search to find information on an address that the user inputs and also produces a list of comparable properties.  Useful if you’re thinking of buying or selling a home, want to keep tabs on your real estate investments, or need to contest the dreaded assessor’s office!
 
 It’s one page.  Just one page.  (Ok, I was required to have at least three routes so I added a login, signup, and account page…but for the most part it’s just one page…)  And it took me ALL WEEK to build it.  Part of it was that I took the time to figure out how to authenticate users using React.  After that was put it place, I feel like things started to pick up quite a bit.
 
@@ -16,26 +16,13 @@ I think I have three big take aways from this project:
 2. We’ve all heard it before, but XML API’s are no where near as slick at JSON.  I’m glad I had this experience to learn a bit about it since I know I’ll have to deal with it in the future, but if everyone could just convert their API’s to JSON, I would really appreciate it, ok?  Do it for me. ;)
 (Bonus Zillow information to follow...)
 
-3. I had a revelation when working with the react-router-dom withRouter function.  I was trying and trying to use history.push to change my url and failing spectacularly until I finally understood history as a prop for react Routes.
+3. I had some issues when working with the react-router-dom.  I could only get either my withRouter function to work with history.push, or my Redirect would push state on redirect, but I couldn't get them to work together.  And it turns out, I was using a ternary incorrectly with Redirect to check to see if the user was logged in.  I found [these docs](https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/Redirect.md) helpful to straighten my Redirect calls out.
 
-If you’re in a Route component - for example: 
+Don't forget to use [withRouter](https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/withRouter.md) in *every* component you want to use history.push.
 
-```<Route exact path =“/signup" component={ Signup } />```
-
-...and you’re in that Signup component, you get history as a prop passed in automatically with the the Route.  You can call this.props.history.push(‘/‘) and your url will change.
-If not, you have to use withRouter.  But!  withRouter still needs that history prop!  For example, I had a Account page and on that account page there was another component to delete the account.  So Account was my Route:
-
-```<Route exact path =“/account" component={ Account } />```
-
-...which was given the history prop.  So my unsubscribe component would need to use withRouter, but I also needed to pass that history prop into it:
-
-```<Unsubscribe history={this.props.history} />```
-
-Then I could import withRouter and wrap the component according to [the docs](https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/withRouter.md)
-and it worked like a charm!
 Note:  If you're wrapping a component that is also connecting to Redux, wrap connect and all:
 
-```export default withRouter(connect(null, { unsubscribeUser })(Unsubscribe));```
+```export default withRouter(connect(null, { loginUser })(Login));```
 <br>
 <br>
 <br>
