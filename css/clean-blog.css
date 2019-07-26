@@ -162,7 +162,8 @@ hr.small {
   }
 }
 .intro-header .site-heading,
-.intro-header .page-heading {
+.intro-header .page-heading,
+.section-title {
   text-align: center;
 }
 .intro-header .site-heading h1,
