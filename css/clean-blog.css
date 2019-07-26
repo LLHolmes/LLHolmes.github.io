@@ -163,7 +163,7 @@ hr.small {
 }
 .intro-header .site-heading,
 .intro-header .page-heading,
-.section-title {
+.profile-title {
   text-align: center;
 }
 .intro-header .site-heading h1,
@@ -445,15 +445,15 @@ body {
 
 
 
-.projects > a {
+.profile > a {
   color: #404040;
 }
-.projects > a:hover,
-.projects > a:focus {
+.profile > a:hover,
+.profile > a:focus {
   text-decoration: none;
   color: #0085a1;
 }
-.projects > a > .project-title {
+.profile > a > .project-title {
   font-size: 30px;
   margin-top: 40px;
   margin-bottom: 10px;
