@@ -163,8 +163,7 @@ hr.small {
 }
 .intro-header .site-heading,
 .intro-header .page-heading,
-.section-title,
-.profile-links {
+.section-title {
   text-align: center;
 }
 .intro-header .site-heading h1,
@@ -456,6 +455,10 @@ body {
 }
 .projects > a > .project-title {
   font-size: 30px;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 10px;
+}
+.profile-links {
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
