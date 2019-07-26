@@ -163,7 +163,8 @@ hr.small {
 }
 .intro-header .site-heading,
 .intro-header .page-heading,
-.section-title {
+.section-title,
+.profile-links {
   text-align: center;
 }
 .intro-header .site-heading h1,
