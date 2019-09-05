@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Updating your Ruby Version in a Project"
-date:       2019-09-05 16:40:10 +0000
+date:       2019-09-05 12:40:12 -0400
 permalink:  updating_your_ruby_version_in_a_project
 ---
 
@@ -10,7 +10,8 @@ Here’s another brief addition to “Lana’s Quick And Basic Guide To Blunderi
 
 I’m not going to go over updating Ruby to the latest version, there are a lot of great guides out there for that already (see below for a few I found helpful).  But there’s a tiny little gap that I stumbled across when it came to updating my Ruby version in a project.
 
-I was pretty sure I had updated the Ruby version on my Mac earlier, but coming back to refactor a project later, I got an error upon running ​bundle​:
+I was pretty sure I had updated the Ruby version on my Mac earlier, but coming back to refactor a project later, I got an error upon running ​bundle:
+
 `Your Ruby version is 2.6.1, but your Gemfile specified 2.6.3`
 
 Huh.  I’m swear I updated my Ruby version earlier (why else would I have changed the version in my Gemfile?).
@@ -56,7 +57,7 @@ But then I cd’d into my project and tried to bundle and was given the same err
 
 ![](https://media.giphy.com/media/8pMS5BXOUVZyo/giphy.gif)
 
-So there was a difference when running ​ruby -v​ in the root file vs. in my project folder.
+So there was a difference when running `ruby -v` in the root file vs. in my project folder.
 
 After a bit more googling, I came across this [post on Stack Overflow](https://stackoverflow.com/questions/15708916/use-rvmrc-or-ruby-version-file-to-set-a-project-gemset-with-rvm).
 
