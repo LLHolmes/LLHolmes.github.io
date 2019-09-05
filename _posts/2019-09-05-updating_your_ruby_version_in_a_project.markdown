@@ -72,11 +72,11 @@ It was finally correct.  At last, I could `bundle install` successfully without 
 
 **So the TL;DR moral of the story...to update your Ruby version:**
 1. Update on the command line.  Some resources I found helpful:
-  * https://stackoverflow.com/questions/38194032/how-to-update-ruby-version-2-0-0-to-the-latest-version-in-mac-osx-yosemite
-  * http://codingpad.maryspad.com/2017/04/29/update-mac-os-x-to-the-current-version-of-ruby/
-  * https://www.ruby-lang.org/en/documentation/installation/
+  * [How to update Ruby Version 2.0.0 to the latest version in Mac OSX Yosemite? - Stack Overflow](https://stackoverflow.com/questions/38194032/how-to-update-ruby-version-2-0-0-to-the-latest-version-in-mac-osx-yosemite)
+  * [UPDATE RUBY TO LATEST VERSION ON MAC OS X - The Coding Pad](http://codingpad.maryspad.com/2017/04/29/update-mac-os-x-to-the-current-version-of-ruby/)
+  * [Installing Ruby - ruby-lang.org](https://www.ruby-lang.org/en/documentation/installation/)
 2. Set your new version as the default.
-  * https://rvm.io/rubies/default
+  * [Setting the default Ruby - rvm.io](https://rvm.io/rubies/default)
 3. Update any projects necessary in both the `Gemfile` **AND** the `.ruby_version`​ file.
 
 
