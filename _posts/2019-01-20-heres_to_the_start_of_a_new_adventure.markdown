@@ -28,14 +28,20 @@ But my family is looking toward the future.
 So here I am, starting over AGAIN.
 The thing I loved about my other jobs was that I got to try to solve puzzles all day long.  I've decided to learn how to code and become a software engineer because I think it suits my personality and curiosity.  I chose to do a bootcamp vs. getting another full on degree for two main reasons.  First, I've already gotten one degree.  I know what that entails and I have obligations to my family.  Plus, four years (Heck!  Two years even!) is a long time to wait when you're switching careers.  Secondly, after earning my first degree, probably 90% of what I regularly used, I learned while on the job.  For my second career, probably 90% of what I regularly used, I learned while on the job.  I think having an excellent base and a willingness to keep learning helped me thrive in both of those situations.  Flatiron will give me that base, the rest is up to me.
 
-As for tid-bits about me personally?  I like to cook and crochet, and those are probably the “girliest” things about me.  I enjoy tea, a good craft beer, dark comedies, and crappy sci-fi movies.  I believe pie is better than cake and any food with the word “cream” in the name just should not be diet.  As for the obligatory Mom-ism:
+As for tid-bits about me personally?  I like to cook and crochet, and those are probably the “girliest” things about me.  I enjoy tea, a good craft beer, dark comedies, and crappy sci-fi movies.  I believe pie is better than cake and any food with the word “cream” in the name just should.not.be.diet.  As for the obligatory Mom-ism:
 
 Being a parent, I generally feel like I'm just blundering through and have no idea what I'm doing.  Every once in a while, though, there's a moment when I feel like we're doing something right.  One of those happened earlier this week when I was having a conversation with my little monster in the bathroom (where all good conversations with toddlers take place...):
+
 Little Monster: “Mama, we yucky.”
+
 Me:  “Yucky?!  Are you dirty?  Where are you dirty?”
+
 LM:  “No!  YUCKY!!!  Yucky.  I yucky.  You yucky.  Daddy yucky.”
+
 Me:  “Yucky?  ...You mean lucky???”
+
 LM:  “Yeah!”  (Nods emphatically with the absolute, stubborn conviction only a toddler can muster.)  “We yucky.”
+
 Me:  “You're right, Buddy!  We are lucky.”
 
 And as I start this new journey, that's exactly how I feel.  Lucky to have my family's support.  Lucky to have this opportunity.  Lucky to see challenges as opportunities.  Just lucky.
