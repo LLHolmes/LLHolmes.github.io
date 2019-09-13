@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Recursive Shuffle"
-date:       2019-09-13 23:51:04 +0000
+date:       2019-09-13 19:51:05 -0400
 permalink:  recursive_shuffle
 ---
 
