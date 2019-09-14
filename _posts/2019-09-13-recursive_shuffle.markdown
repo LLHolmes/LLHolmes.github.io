@@ -9,7 +9,6 @@ permalink:  recursive_shuffle
 > Recursion occurs when a thing is defined in terms of itself or of its type. Recursion is used in a variety of 
 > disciplines...The most common application of recursion is in mathematics and computer science, where a function 
 > being defined is applied within its own definition. 
-
 ~ [Wikipedia](https://en.wikipedia.org/wiki/Recursion_(computer_science)
 
 The first time I heard of recursion I’m pretty sure my brain melted.  It turned to mush, leaked out my ears, and I sat there trying to put together ANY thought more complicated than, “Whaaaaat???”
