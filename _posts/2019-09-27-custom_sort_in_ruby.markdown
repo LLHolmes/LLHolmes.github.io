@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Custom sort in Ruby"
-date:       2019-09-27 18:25:16 +0000
+date:       2019-09-27 14:25:18 -0400
 permalink:  custom_sort_in_ruby
 ---
 
@@ -11,12 +11,12 @@ When working on a JavaScript project, I came across the need to build a custom s
 
 ```
 array = [
-    {name: "Paul", age: 30},
-	{name: "Paul", age: 10},
-	{name: "Ringo", age: 20},
-	{name: "Ringo", age: 10},
-	{name: "John", age: 10},
-	{name: "George", age: 20}
+  {name: "Paul", age: 30},
+  {name: "Paul", age: 10},
+  {name: "Ringo", age: 20},
+  {name: "Ringo", age: 10},
+  {name: "John", age: 10},
+  {name: "George", age: 20}
 ]
 ```
 
@@ -26,13 +26,13 @@ I want to sort my array with all items of the lowest age first, and all ages sor
 sorted = array.sort{ |a, b| a[:name] <=> b[:name] }.sort{ |a, b| a[:age] <=> b[:age] }
 
 => [
-    {name: "John", age: 10},
-	{name: "Paul", age: 10},
-	{name: "Ringo", age: 10},
-	{name: "George", age: 20},
-	{name: "Ringo", age: 20},
-	{name: "Paul", age: 30}
-	]
+  {name: "John", age: 10},
+  {name: "Paul", age: 10},
+  {name: "Ringo", age: 10},
+  {name: "George", age: 20},
+  {name: "Ringo", age: 20},
+  {name: "Paul", age: 30}
+]
 ```
 
 But is there a more efficient way than needing to sort the same array twice?
@@ -55,12 +55,12 @@ Both give us the same result:
 
 ```
 => [
-    {name: "Paul", age: 10},
-	{name: "Ringo", age: 10},
-	{name: "John", age: 10},
-	{name: "Ringo", age: 20},
-	{name: "George", age: 20},
-	{name: "Paul", age: 30}
+  {name: "Paul", age: 10},
+  {name: "Ringo", age: 10},
+  {name: "John", age: 10},
+  {name: "Ringo", age: 20},
+  {name: "George", age: 20},
+  {name: "Paul", age: 30}
 ]
 ```
 
@@ -70,12 +70,12 @@ But the ternary gives us more flexibility.  So, if we then want to alphabetize t
 sorted = array.sort{ |a, b| (a[:age] > b[:age] ? 1 : (a[:age] === b[:age] ? (a[:name] <=> b[:name]) : -1)) }
 
 => [
-    {name: "John", age: 10},
-	{name: "Paul", age: 10},
-	{name: "Ringo", age: 10},
-	{name: "George", age: 20},
-	{name: "Ringo", age: 20},
-	{name: "Paul", age: 30}
+  {name: "John", age: 10},
+  {name: "Paul", age: 10},
+  {name: "Ringo", age: 10},
+  {name: "George", age: 20},
+  {name: "Ringo", age: 20},
+  {name: "Paul", age: 30}
 ]
 ```
 
